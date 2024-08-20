@@ -1,3 +1,5 @@
+# Bu kod neo4j browser'a yazılıyor.
+
 # LOAD CSV WITH HEADERS FROM "file:///rfn_parts.csv" AS row
 # CREATE (n:Parts)
 # SET n = row;
