@@ -1,9 +1,3 @@
-# Birkaç örnek sorgu ve modelleme yapılandırması.
-
-# parts etiketine sahip düğümlerden part.id'si "19999" olan parçanın ayrıntılarını gösterir. part_name ve part_description özelliklerini birleştirip döndürür ve sonucu response olarak adlandırır.
-# part.id'si "19999" olan parçanın tedarikçisini bulur.
-# part_id'si "19999" olan parçanın alternatif parçalarını gösterir.
-
 examples = """"
 MATCH (p:Parts) WHERE p.part_id = "03109-39" RETURN 'Part Name: ' + p.part_name + ' | Bom Level: ' + p.bom_level AS response
 
@@ -51,7 +45,6 @@ node_properties = """
 """
 
 # Düğümler arasındaki ilişkileri tanımlar.
-# source kaynak düğüm türü, target hedef düğüm türüdür.
 
 relationships_props = """
 [
