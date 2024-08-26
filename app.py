@@ -10,7 +10,7 @@ st.set_page_config(page_title="💬 Ask Me, Rahul")
 st.title("💬 Ask Me, Rahul ")
 st.info("Ask me V0.01 - Rahul | Powered By GPT-4",icon="ℹ️")
 
-openai.api_key = "sk-proj-CjCrQtfnzXk6DJdWlB6lT3BlbkFJ5g9P1a0uUZQEb284IFnB"
+openai.api_key = "your_api_key"
 
 def generate_response(prompt, cypher=True):
     usr_input = [{"role": "user", "content": prompt}]
